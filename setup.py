@@ -22,7 +22,7 @@ def read(*names, **kwargs):
 
 
 setup(
-    name="stacksi-simplify-docx",
+    name="simplify-docx",
     version="0.1.0",
     description="A utility for simplifying python-docx document objects",
     long_description="%s\n%s"
