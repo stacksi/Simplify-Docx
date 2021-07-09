@@ -23,7 +23,7 @@ def read(*names, **kwargs):
 
 setup(
     name="stacksi-simplify-docx",
-    version="0.1.0",
+    version="0.1.1",
     description="A utility for simplifying python-docx document objects",
     long_description="%s\n%s"
     % (
@@ -62,7 +62,7 @@ setup(
     install_requires=[
             "lxml>=4.3.3,<5",
             "more-itertools==7.0.0",
-            "python-docx==0.8.10",
+            "stacksi-python-docx==0.8.10",
             "six>=1.12.0<2",
             "wincertstore==0.2",
         ],
